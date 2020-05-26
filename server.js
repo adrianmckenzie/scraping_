@@ -28,7 +28,8 @@ app.set("view engine", "handlebars");
 //connecting to MongoDB
 //mongoose.connect("mongodb://localhost/scraped_news");
 const MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb://localhost/scraper_news";
+  process.env.MONGODB_URI ||
+  "mongodb://localhost/scraper_newsmongodb://scrapinglupusrex:Cnotez25@ds255320.mlab.com:55320/heroku_t9lcsbq6";
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
